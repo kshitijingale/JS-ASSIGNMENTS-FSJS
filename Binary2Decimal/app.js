@@ -17,7 +17,7 @@ function binaryToDecimal() {
         if (digit == 1) {
             answer = answer + Math.pow(2, i);
         }
-        num = num / 10;
+        num = Math.floor(num / 10);
         i++;
     }
     return answer;
