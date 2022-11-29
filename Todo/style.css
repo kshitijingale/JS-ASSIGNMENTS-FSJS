@@ -15,7 +15,7 @@ h1 {
   margin: 1rem 0 3rem;
   text-align: center;
   color: rgb(255, 255, 255);
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .heading {
@@ -68,6 +68,7 @@ h1 {
 }
 
 .item {
+  display: flex;
   padding: 0.5rem;
   margin-bottom: 1.5rem;
   border-bottom: 4px solid #fff;
@@ -85,7 +86,7 @@ h1 {
 .editButton {
   font-size: 1.4rem;
   margin: 0 0.5rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   background: none;
   outline: none;
   color: #383cc1;
@@ -96,7 +97,7 @@ h1 {
 .deleteButton {
   font-size: 1.4rem;
   margin: 0 0.5rem;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   background: none;
   outline: none;
   color: rgb(223, 16, 16);
